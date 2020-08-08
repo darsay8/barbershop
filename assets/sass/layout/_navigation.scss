@@ -1,0 +1,31 @@
+.navbar {
+  background-color: $eerie-black;
+  color: $white;
+
+  .logo__image {
+    width: 78px;
+  }
+
+  .link {
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $regular-wght;
+    color: $white;
+
+    &:hover {
+      color: $fuzzy-wuzzy;
+    }
+
+  }
+
+  .navbar-toggler-icon{
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+
+    &:hover{
+      color: $fuzzy-wuzzy;
+    }
+  }
+
+}

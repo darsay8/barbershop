@@ -1,0 +1,31 @@
+.article__container {
+  padding-top: 75px;
+
+  .article__date {
+    font-family: $playfair;
+    font-size: $large;
+    font-weight: $regular-wght;
+    margin-bottom: 80px;
+  }
+
+  .article__text {
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $light-wght;
+    margin-bottom: 60px;
+    letter-spacing:0.5px;
+    line-height: 50px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    .article__text-highlight{
+      color: $ruddy-pink;
+    }
+  }
+}
+
+.article__buttons{
+  padding: 95px 8px;
+}

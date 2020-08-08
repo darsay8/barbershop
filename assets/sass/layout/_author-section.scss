@@ -1,0 +1,19 @@
+.author__container {
+  padding: 58px 0 92px;
+  display: flex;
+  align-items: center;
+
+  .name__text{
+    font-weight: $bold-wght;
+    font-size: $x-large;
+    font-style: italic;
+  }
+
+  .description__text{
+    font-family: $roboto;
+    font-size: $small;
+    font-weight: $regular-wght;
+    letter-spacing:0.5px;
+    line-height: 40px;
+  }
+}

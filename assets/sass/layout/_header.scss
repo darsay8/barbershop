@@ -1,0 +1,51 @@
+.header {
+  background-image: url("../img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .header__container {
+    color: $white;
+
+    .header__title-size-xxl {
+      font-family: $playfair;
+      font-size: $xx-large;
+      font-weight: $bold-wght;
+      font-style: italic;
+      position: relative;
+      top: 30vh;
+
+    }
+
+    .header__icon {
+      position: relative;
+      top: 50vh;
+
+      a{
+        text-decoration: none;
+        color: $white;
+
+        &:hover{
+          color: $light-gray;
+        }
+      }
+
+    }
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 649px) {
+      .header__title-size-xxl {
+        font-size: $x-large;
+        top: 30vh;
+
+      }
+
+    }
+
+
+  }
+
+
+}
