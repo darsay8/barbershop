@@ -5,6 +5,8 @@
   font-size: $medium;
   font-weight: $regular-wght;
   height: 51px;
+  transition: 0.5s;
+  margin: 0 8px;
 
   &:hover{
     background-color:$light-gray ;
@@ -12,7 +14,14 @@
 
   &:focus{
     background-color: $nickel;
-    border: 2px solid $light-gray   ;
+    border: 3px solid $light-gray;
+    outline: none !important;
+    box-shadow: none;
+
+  }
+
+  &:active {
+    background-color: $ruddy-pink;
   }
 
 }

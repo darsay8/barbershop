@@ -2,14 +2,9 @@
 body {
   height: 100vh;
   background-color: $white;
-}
-
-h1, h2, h3, h4, h5{
-  font-family: $playfair;
-}
-
-p{
   font-family: $roboto;
 }
 
-hr{}
+h1, h2, h3, h4, h5 {
+  font-family: $playfair;
+}

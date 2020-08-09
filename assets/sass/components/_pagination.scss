@@ -1,0 +1,61 @@
+.page-link {
+  padding: 12px 22px;
+  color: $eerie-black;
+  transition: 0.3s;
+
+  &:hover {
+    color: $white;
+    background-color: $nickel;
+  }
+
+  &:focus {
+    box-shadow: none;
+    color: $light-gray;
+  }
+
+  &:active {
+    box-shadow: none;
+    background-color: $light-gray;
+  }
+
+}
+
+.page-item {
+
+  &:first-child {
+    .page-link {
+      border-radius: 20px 0 0 20px;
+      padding: 12px 32px;
+    }
+  }
+
+  &:last-child {
+    .page-link {
+      border-radius: 0 20px 20px 0;
+      padding: 12px 40px;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 649px) {
+
+  .page-link {
+    padding: 10px 14px;
+
+  }
+
+  .page-item {
+
+    &:first-child {
+      .page-link {
+        padding: 10px 20px;
+      }
+    }
+
+    &:last-child {
+      .page-link {
+        padding: 10px 25px;
+      }
+    }
+  }
+}

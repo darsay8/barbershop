@@ -24,11 +24,15 @@
       position: relative;
       top: 50vh;
 
-      a{
+      a {
         text-decoration: none;
         color: $white;
 
-        &:hover{
+        &:hover {
+          color: $raisin-black;
+        }
+
+        &:active {
           color: $light-gray;
         }
       }
@@ -37,15 +41,12 @@
 
     @media only screen and (min-device-width: 375px) and (max-device-width: 649px) {
       .header__title-size-xxl {
-        font-size: $x-large;
-        top: 30vh;
+        top: 8vh;
 
       }
-
+      .header__icon {
+        top: 12vh;
+      }
     }
-
-
   }
-
-
 }

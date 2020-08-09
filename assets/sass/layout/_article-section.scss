@@ -29,3 +29,13 @@
 .article__buttons{
   padding: 95px 8px;
 }
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 649px) {
+
+  .article__text {
+    margin-bottom: 40px;
+    line-height: 30px;
+  }
+
+}

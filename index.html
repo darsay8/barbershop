@@ -64,7 +64,7 @@
     <div class="container">
         <div class="row">
             <div class="article__container col-12">
-                <p class="article__date">12 de abril de 2018</p>
+                <p class="article__date">April 12th, 2018</p>
                 <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc quam, eget
                     scelerisque quam
                     semper quis. Mauris maximus blandit lorem, sit amet condimentum eros auctor quis. In ut semper
@@ -109,7 +109,7 @@
                     varius.</p>
 
             </div>
-            <div class="article__buttons col-12">
+            <div class="article__buttons col-12 col-md-6 text-center text-md-left">
                 <button class="button button__small btn">Share</button>
                 <button class="button button__medium btn">Comment on Twitter</button>
 
@@ -119,18 +119,17 @@
 </article>
 <!-- Author section -->
 <section class="author">
-    <hr>
     <div class="container">
-        <div class="row author__container">
-                    <div class="image__author col-3">
+        <div class="row author__container  text-center text-md-left">
+                    <div class="image__author col-12 col-md-3">
                         <img class="thumb thumb__size-normal" src="assets/img/naomi-thai.png" alt="">
                     </div>
-                    <div class="author__about col-3">
+                    <div class="author__about col-12 col-md-3">
                         <h4 class="name__text">Naomi Thai</h4>
-                        <a class="link link__primary-scheme" href="">@Naothai</a>
-                        <a class="link link__primary-scheme" href="">newhair.com</a>
+                        <a class="author__link-primary" href="">@Naothai</a><br>
+                        <a class="author__link-primary" href="">newhair.com</a>
                     </div>
-                    <div class="author__description col-6">
+                    <div class="author__description col-12 col-md-6 d-none d-md-block">
                         <p class="description__text">Fusce in eros purus. Fusce volutpat nisi purus, ac
                             vehicula ipsum sollicitudin in. Praesent ultrices
                             semper massa, eu pellentesque purus vehicula non. Praesent tincidunt convallis ipsum, quis
@@ -142,9 +141,9 @@
 </section>
 <!-- Pagination section -->
 <section class="pagination">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="pagination__container col-12 d-flex justify-content-center">
+            <div class="pagination__container col-12 d-flex justify-content-center align-middle">
                 <nav>
                     <ul class="pagination">
                         <li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -159,8 +158,8 @@
     </div>
 </section>
 <!-- Footer -->
-<footer class="footer bg-dark text-center">
-    <img src="assets/img/logo.png" alt="">
+<footer class="footer text-center">
+    <img class="footer__logo" src="assets/img/logo.png" alt="">
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"

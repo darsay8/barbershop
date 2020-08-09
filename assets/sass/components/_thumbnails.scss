@@ -1,12 +1,13 @@
-.thumb{
+.thumb {
   border-radius: 50%;
-
+  width: 220px;
 }
 
-.thumb__size-normal {
-  width: 250px;
-}
-.thumb__size-small {
-  width: 131px;
+@media only screen and (min-device-width: 375px) and (max-device-width: 649px) {
+  .thumb {
+    width: 131px;
+    margin-bottom: 20px;
+
+  }
 
 }

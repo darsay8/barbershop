@@ -1,19 +1,41 @@
+.author {
+  border-top: 1px solid $light-gray;
+}
+
 .author__container {
   padding: 58px 0 92px;
   display: flex;
   align-items: center;
 
-  .name__text{
+  .name__text {
     font-weight: $bold-wght;
     font-size: $x-large;
     font-style: italic;
   }
 
-  .description__text{
+  .description__text {
     font-family: $roboto;
     font-size: $small;
     font-weight: $regular-wght;
-    letter-spacing:0.5px;
+    letter-spacing: 0.5px;
     line-height: 40px;
+    margin: 0;
   }
+
+  .author__link-primary{
+
+    font-size: $large;
+    font-weight: $light-wght;
+    color: $primary-scheme;
+
+    &:hover{
+      color: $secondary-scheme;
+      text-decoration: none;
+    }
+    &:active{
+      color: $light-scheme;
+    }
+  }
+
+
 }
